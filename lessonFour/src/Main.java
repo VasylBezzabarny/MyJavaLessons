@@ -32,7 +32,7 @@ public class Main {
         family.Human human = new family.Human("Michael", "Karleone", 1977, 90, schedule);
         family.Human mother = new family.Human("Jane", "Karleone", 1950 );
         family.Human father = new family.Human("Vito", "Karleone", 1950);
-        family.Human[] children = new family.Human[3];
+        family.Human[] children = new family.Human[2];
         family.Family family = new family.Family(mother, father, children, pet);
         children[0] = new family.Human("Ivan", "Karleone", 2005);
         children[0].setFamily(family);
