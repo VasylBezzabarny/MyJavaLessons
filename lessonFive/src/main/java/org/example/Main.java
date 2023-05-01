@@ -8,11 +8,7 @@ public class Main {
         Species dog = Species.DOG;
         Species cat = Species.CAT;
         Pet pet = new Pet(dog, "Rock",5,75, new String[] {"eat","drink","sleep"});
-//           pet.setSpecies("dog");
-//           pet.setNickName("Rock");
-//           pet.setAge(5);
-//           pet.setTrickLevel(75);
-//           pet.setHabits(new String[]{"eat","drink","sleep"});
+
         pet.eat();
         pet.respond();
         System.out.println(pet.toString());
@@ -26,12 +22,6 @@ public class Main {
                 {DayOfWeek.MONDAY.name(), " go to courses"}
 
         };
-        // for (int i = 0; i < schedule.length; i++) {
-//            for (int j = 0; j < schedule[i].length; j++) {
-//                System.out.print(schedule[i][j]);
-//            }
-//            System.out.println();
-//    }
 
         Human human = new Human("Michael", "Karleone", 1977, 90, schedule);
         Human mother = new Human("Jane", "Karleone", 1950 );
@@ -54,18 +44,8 @@ public class Main {
         System.out.println(human.toString());
         System.out.println(family.toString());
 
-        int indexToDelete = 2;
-        boolean isDeleted = family.deleteChild(indexToDelete);
-//        if (isDeleted) {
-//            Human[] newChildren = Arrays.copyOf(family.getChildren(), family.getChildren().length);
-//            if (newChildren.length < family.getChildren().length || newChildren[indexToDelete] == null) {
-//                System.out.println("Child successfully deleted.");
-//            } else {
-//                System.out.println("Error deleting child.");
-//            }
-//        } else {
-//            System.out.println("Error deleting child.");
-//        }
+        family.deleteChild(0);
+        System.out.println(family.toString());
 
         Family familyTwo = new Family(new Human("Ivanna", "Ivanova", 1965), new Human("Ivan", "Ivanov", 1966), new Human[]{new Human("Petr", "Ivanov", 2000)}, new Pet(cat, "Murka", 5, 90, new String[] {"sleep", "play"}));
         System.out.println(familyTwo.toString());

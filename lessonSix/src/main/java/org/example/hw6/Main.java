@@ -36,8 +36,8 @@ public class Main {
         System.out.println(human.toString());
         System.out.println(family.toString());
 
-        int indexToDelete = 2;
-        boolean isDeleted = family.deleteChild(indexToDelete);
+        family.deleteChild(0);
+        System.out.println(family.toString());
         Species pet = new Dog("Murka", 5, 90, new String[] {"sleep", "play"}).getSpecies();
         Family familyTwo = new Family(new Human("Ivanna", "Ivanova", 1965), new Human("Ivan", "Ivanov", 1966), new Human[]{new Human("Petr", "Ivanov", 2000)}, pet);
         System.out.println(familyTwo.toString());
