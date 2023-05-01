@@ -31,9 +31,9 @@ public class FamilyTest {
     }
     @Test
     public void deleteChildIndexPositive() {
-            boolean deleted = family.deleteChild(1);
-            Assertions.assertTrue(deleted);
-            Human[] expectedChildren = {children[0], children[1]};
+        boolean deleted = family.deleteChild(1);
+        Assertions.assertTrue(deleted);
+        Human[] expectedChildren = {children[0], children[1]};
         Assertions.assertArrayEquals(expectedChildren, family.getChildren());
     }
 
@@ -47,11 +47,11 @@ public class FamilyTest {
 
 
     @Test
-    public void testRemoveChild() {
-        Human childToRemove = children[0]; // выбираем первого ребенка для удаления
-        family.deleteChild(childToRemove); // удаляем его из семьи
-        Assertions.assertFalse(Arrays.asList(children).contains(childToRemove));
-
+    public void testDeleteChildPositive() {
+        Human childToDelete = children[0];
+        family.deleteChild(childToDelete);
+        Assertions.assertFalse(Arrays.asList(children).contains(childToDelete));
+    }
 
     @Test
     public void testDeleteChildNegative() {
