@@ -67,16 +67,15 @@ public class Family {
     }
 
     public boolean deleteChild(int index) {
-        if (children == null || index < 0 || index >= children.length) {
-            return false;
+        if(index > children.length-1 || index < 0) return false;
+        Human[] childrenResult = new Human[children.length-1];
+        int j = 0;
+        for (int i = 0; i < children.length; i++) {
+            if (i != index) {
+                childrenResult[j++] = children[i];
+            }
         }
-        if (children[index] == null) {
-            return false;
-        }
-        for (int i = index; i < children.length - 1; i++) {
-            children[i] = children[i + 1];
-        }
-        children[children.length - 1] = null;
+        children = childrenResult;
         return true;
     }
     public boolean deleteChild(Human child) {
