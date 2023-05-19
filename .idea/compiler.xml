@@ -9,12 +9,14 @@
         <module name="lessonSeven" />
         <module name="lessonFive" />
         <module name="lessonSix" />
+        <module name="lessonNine" />
         <module name="lessonEight" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lessonEight" target="17" />
       <module name="lessonFive" target="17" />
+      <module name="lessonNine" target="17" />
       <module name="lessonSeven" target="17" />
       <module name="lessonSix" target="17" />
     </bytecodeTargetLevel>
