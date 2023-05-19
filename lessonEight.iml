@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/lessonEight/target/classes" />
+    <output-test url="file://$MODULE_DIR$/lessonEight/target/test-classes" />
+    <content url="file://$MODULE_DIR$/lessonEight">
+      <sourceFolder url="file://$MODULE_DIR$/lessonEight/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lessonEight/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/lessonEight/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/lessonEight/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
