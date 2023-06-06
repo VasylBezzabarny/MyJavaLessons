@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
-    <output url="file://$MODULE_DIR$/lessonTen/target/classes" />
-    <output-test url="file://$MODULE_DIR$/lessonTen/target/test-classes" />
-    <content url="file://$MODULE_DIR$/lessonTen">
-      <sourceFolder url="file://$MODULE_DIR$/lessonTen/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lessonTen/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/lessonTen/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/lessonTen/target" />
+    <output url="file://$MODULE_DIR$/moduleThreeOne/target/classes" />
+    <output-test url="file://$MODULE_DIR$/moduleThreeOne/target/test-classes" />
+    <content url="file://$MODULE_DIR$/moduleThreeOne">
+      <sourceFolder url="file://$MODULE_DIR$/moduleThreeOne/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/moduleThreeOne/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/moduleThreeOne/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/moduleThreeOne/target" />
     </content>
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -19,5 +19,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.78" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars:jquery:3.5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.21.0" level="project" />
   </component>
 </module>
